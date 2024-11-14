@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <table>
+        <tr>
+            <td colspan="3"><input type="text" id="a"></td>
+            <td><input type="button" value="C" onclick="clr()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="pick(1)"></td>
+            <td><input type="button" value="2" onclick="pick(2)"></td>
+            <td><input type="button" value="3" onclick="pick(3)"></td>
+            <td><input type="button" value="/" onclick="pick('/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="pick(4)"></td>
+            <td><input type="button" value="5" onclick="pick(5)"></td>
+            <td><input type="button" value="6" onclick="pick(6)"></td>
+            <td><input type="button" value="-" onclick="pick('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="pick(7)"></td>
+            <td><input type="button" value="8" onclick="pick(8)"></td>
+            <td><input type="button" value="9" onclick="pick(9)"></td>
+            <td><input type="button" value="+" onclick="pick('+')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." onclick="pick('.')"></td>
+            <td><input type="button" value="0" onclick="pick(0)"></td>
+            <td><input type="button" value="=" onclick="solve()"></td>
+            <td><input type="button" value="*" onclick="pick('*')"></td>
+        </tr>
+    </table>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

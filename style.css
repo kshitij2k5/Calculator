@@ -1,0 +1,30 @@
+input [type="button"]{
+    width: 100%;
+    height: 100%;
+    
+}
+input{
+    width: 100%;
+    height: 100%;
+    color: rgb(63, 161, 36);
+    background-color: black;
+    border: 1px solid rgb(190, 54, 54);
+    font-size: 50px;
+}
+.container{
+    size: 100px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+table,tr,td{
+    border: 5px solid rgb(91, 9, 9);
+    border-collapse: collapse;
+}
